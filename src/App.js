@@ -68,7 +68,8 @@ function App() {
         ingredients={element.recipe.ingredientLines}
         fit={element.recipe.digest[0].total}
         carbs={element.recipe.digest[1].total}
-        protein={element.recipe.digest[2].total}/>
+        protein={element.recipe.digest[2].total}
+        source={element.recipe.url}/>
       
 
       ))}

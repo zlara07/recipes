@@ -1,4 +1,4 @@
-function MyRecipesComponents({label, image, calories, ingredients, fit, carbs, protein}) {
+function MyRecipesComponents({label, image, calories, ingredients, fit, carbs, protein, source}) {
     return (
     <div> 
         <div className="container">
@@ -31,6 +31,10 @@ function MyRecipesComponents({label, image, calories, ingredients, fit, carbs, p
 
         <div className="container green">
           <p>{protein.toFixed()} grams PROTEIN</p>
+        </div>
+
+        <div className="container gray">
+          <p>{source}</p>
         </div>
     </div>
   )  
