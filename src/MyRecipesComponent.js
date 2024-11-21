@@ -34,7 +34,8 @@ function MyRecipesComponents({label, image, calories, ingredients, fit, carbs, p
         </div>
 
         <div className="container gray">
-          <p>{source}</p>
+          <a href={source}>RECIPE</a>
+          
         </div>
     </div>
   )  

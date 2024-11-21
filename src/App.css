@@ -41,14 +41,14 @@ video {
         align-items: center;
     }
 
-    li {
+    li, a {
         background-color: #ddd6e8;
         padding: 10px;
         margin: 10px;
         list-style-type: none;
     }
 
-    h1, h2, ul, p {
+    h1, h2, ul, p, a {
         font-family: "Open Sans", sans-serif;
     }
 
